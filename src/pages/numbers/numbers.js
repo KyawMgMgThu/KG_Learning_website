@@ -89,7 +89,7 @@ function Numbers() {
               <Card.Body>
                 <Row>
                   {[...Array(20)].map((x, i) => (
-                    <Col md="2" key={i} className="media-col">
+                    <Col xs={6} md={4} key={i} className="media-col">
                       <Card className="mb-3 card-style">
                         <Speech text={i + 11}>
                           <Card.Body style={{ padding: '0.5rem' }}>
@@ -112,7 +112,7 @@ function Numbers() {
               <Card.Body>
                 <Row>
                   {[...Array(30)].map((x, i) => (
-                    <Col md="2" key={i} className="media-col">
+                    <Col xs={6} md={4} key={i} className="media-col">
                       <Card className="mb-3 card-style">
                         <Speech text={i + 31}>
                           <Card.Body style={{ padding: '0.5rem' }}>
@@ -135,7 +135,7 @@ function Numbers() {
               <Card.Body>
                 <Row>
                   {[...Array(40)].map((x, i) => (
-                    <Col md="2" key={i} className="media-col">
+                    <Col xs={6} md={4} key={i} className="media-col">
                       <Card className="mb-3 card-style">
                         <Speech text={i + 61}>
                           <Card.Body style={{ padding: '0.5rem' }}>

@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './navbar.js';
 import Alphabets from './pages/alphabets/alphabets.js';
 import Numbers from './pages/numbers/numbers.js';
+import Words from './pages/words/words.js';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Navbar />} />
           <Route path="/alphabets" element={<Alphabets />} /> 
           <Route path="/numbers" element={<Numbers />} />
+          <Route path="/words" element={<Words />} />
         </Routes>
       </Router>
     </div>
