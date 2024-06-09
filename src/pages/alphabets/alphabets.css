@@ -3,12 +3,11 @@
 }
 
 .card-style:hover{
-    /* border:0.5px solid black; */
     color: rgb(132, 24, 233);
-    }
+}
 
 @media (min-width: 500px) { 
     .media-col{
-        width: 2rem;
+        width: 15rem;
     }
 }

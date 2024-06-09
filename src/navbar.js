@@ -14,7 +14,6 @@ export default function Navbarkids() {
         <Nav.Link href="/kg-learning/#/numbers" className="nav-item" ><img src="https://img.icons8.com/color/26/000000/1-circle--v3.png" alt="number_icon"/> Numbers </Nav.Link>
         <Nav.Link href="/kg-learning/#/words" className="nav-item"><img src="https://img.icons8.com/color/26/000000/document--v1.png" alt="words_icon"/> Words </Nav.Link>
         <Nav.Link href="/kg-learning/#/table" className="nav-item"><img src="https://img.icons8.com/color/26/000000/sigma.png" alt="table_icon"/> Table's </Nav.Link>
-        <Nav.Link href="/kg-learning/#/about" className="nav-item"><img src="https://img.icons8.com/color/26/000000/about.png" alt="About_icon"/> About Us</Nav.Link>
       </Nav>
           <Form inline>
             <Button href="/kids-learning/#/practice" variant="outline-success">
