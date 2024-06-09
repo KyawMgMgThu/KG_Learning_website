@@ -6,7 +6,7 @@ export default function Navbarkids() {
   return (
     <div className="Navbar">
       <Navbar expand="lg">
-        <Navbar.Brand className="heading" href="/kg-learning/#/">KG learning</Navbar.Brand>
+        <Navbar.Brand className="heading mx-2" href="/kg-learning/#/">KG learning</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto pl-5 ">

@@ -59,7 +59,7 @@ function GL() {
         {
             photo: Kite,
             value: "Kite",
-            lang: "(ကြာပျံ)"
+            lang: "(စွန်)"
         },
         {
             photo: King,
@@ -69,7 +69,7 @@ function GL() {
         {
             photo: Lion,
             value: "Lion",
-            lang: "(ကျား)"
+            lang: "(ခြင်္သေ့)"
         },
         {
             photo: Leaf,

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@520&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script:wght@520&display=swap');
+
+.home{
+    display: inline;
+    font-family:'Dancing Script', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .homeImg{
+      display:none;
+    }
+    .rowImg{
+        flex-direction: row;
+        display: flex;
+        
+    }
+
+}
