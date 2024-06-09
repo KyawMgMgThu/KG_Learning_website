@@ -8,6 +8,7 @@ import Months from '../../Data/Months.json';
 import Days from '../../Data/Days.json';
 import AF from '../../Data/Af.js';
 import GL from '../../Data/Gl.js';
+import MR from '../../Data/Mr.js';
 
 function ControlledTabs() {
     const [key, setKey] = useState('Af');
@@ -25,6 +26,10 @@ function ControlledTabs() {
             <Tab eventKey="Gl" title="G-L">
                 <br />
                 <GL />
+            </Tab>
+            <Tab eventKey="Mr" title="M-R">
+                <br />
+                <MR />
             </Tab>
             <Tab eventKey="Months" title="Months">
                 <br />
