@@ -1,22 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useSpeechSynthesis } from "react-speech-kit";
 
-function Speech({ text, voice, children }) {
-  const [spokenText, setSpokenText] = useState(text);
-  const { speak, voices, speaking, supported } = useSpeechSynthesis();
-
-  useEffect(() => {
-    setSpokenText(text);
-  }, [text]);
+function Speech({ text, children }) {
+  const { speak, supported } = useSpeechSynthesis();
 
   const speakWithVoice = () => {
     if (!supported) {
       console.error("Speech synthesis is not supported in this browser.");
       return;
     }
-
-    const selectedVoice = voices.find(v => v.name === voice) || voices[0];
-    speak({ text: spokenText, voice: selectedVoice });
+    
+    speak({ text });
   };
 
   return (
