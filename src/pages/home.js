@@ -1,39 +1,35 @@
 import React from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Navbar from '../navbar.js';
 import Speech from './Speech/Speech';
+import Img1 from './svg/img1.png';
+import Img2 from './svg/img2.png';
 import './home.css';
 
 function Home() {
   return (
     <div>
       <Navbar />
-      <Container>
-        <br />
+      <Container className="text-center mt-4">
         <Row>
           <Col>
             <h1>Welcome to Our Learning Platform!</h1>
             <Speech text="If a child cannot learn in the way we teach, we must teach in a way the child can learn">
-              <h2 className="home mt-5 card-style">"If a child cannot learn in the way we teach, we must teach in a way the child can learn."</h2>
+              <h2 className="mt-5 card-style">
+                "If a child cannot learn in the way we teach, we must teach in a way the child can learn."
+              </h2>
             </Speech>
           </Col>
         </Row>
-        <br />
-        <Row>
+        <Row className="my-4">
           <Col>
-            
+            <img src={Img1} alt="Student Cartoon" width={170} height={170} className="img-fluid home-img" />
+            <img src={Img2} alt="Student Cartoon" width={170} height={50} className="img-fluid home-img" />
           </Col>
         </Row>
         <Row>
           <Col>
-          <img src="https://img.freepik.com/free-vector/thai-student-boy-cartoon-character_1308-81032.jpg?size=626&ext=jpg&ga=GA1.2.1052301272.1717926846&semt=ais_user" alt="" width={170} height={50} className="img-fluid" />
-
-            <img src="https://img.freepik.com/free-vector/asian-girl-student-uniform-cartoon-character-sticker_1308-59350.jpg?size=626&ext=jpg" alt="" width={170} height={50} className="img-fluid" />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-          <a href="/kids-learning/#/alphabets" class="btn card-style">Go To Lessons</a>
+            <a href="/kids-learning/#/alphabets" className="btn card-style">Go To Lessons</a>
           </Col>
         </Row>
       </Container>

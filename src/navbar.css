@@ -1,20 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 
-.heading{
-    font-family:'Hachi Maru Pop', cursive;
-    font-size: 'x-large';
+.heading {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: x-large;
     font-weight: 600;
 }
 
-/* .Navbar{
-     background-color: rgb(255, 255, 255); 
-} */
-
-.nav-item{
-    color:rgb(75, 75, 75);
+.nav-item {
+    color: rgb(75, 75, 75);
     font-weight: 400;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.dropdown:hover.dropdown-menu {
-    display: block;
-  }
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .Navbar {
+    background-color: #1e1e1e;
+}
+
+.dark-mode .nav-item {
+    color: #bbbbbb;
+}
+
+.dark-mode .navbar-brand,
+.dark-mode .nav-link {
+    color: #ffffff;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.light-mode .Navbar {
+    background-color: #f8f9fa;
+}
+
+.light-mode .nav-item {
+    color: rgb(75, 75, 75);
+}
+
+.light-mode .navbar-brand,
+.light-mode .nav-link {
+    color: #000000;
+}
