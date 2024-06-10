@@ -22,7 +22,7 @@ export default function Navbarkids() {
             <Nav.Link href="/kg-learning/#/alphabets" className="nav-item">Alphabets</Nav.Link>
             <Nav.Link href="/kg-learning/#/numbers" className="nav-item">Numbers</Nav.Link>
             <Nav.Link href="/kg-learning/#/words" className="nav-item">Words</Nav.Link>
-            <Nav.Link href="/kg-learning/#/tables" className="nav-item">Table's</Nav.Link>
+            <Nav.Link href="/kg-learning/#/tables" className="nav-item">Tables</Nav.Link>
             <Nav.Link href="/kids-learning/#/draws" className="nav-item">Draw</Nav.Link>
           </Nav>
           <Button onClick={toggleDarkMode} variant="outline-secondary" className="ml-2">
