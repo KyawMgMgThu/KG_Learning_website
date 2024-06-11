@@ -30,7 +30,7 @@ function Games() {
         <Col className="md-col-6 p-4">
           <Card>
             <Card.Body>
-              <Card.Title>Logical Test</Card.Title>
+              <Card.Title>English Test</Card.Title>
               <Card.Text>
                 English Choice test with timer and score.
               </Card.Text>
