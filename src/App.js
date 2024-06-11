@@ -7,6 +7,8 @@ import Words from './pages/words/words.js';
 import Home from './pages/home.js';
 import Tables from './pages/tables/tables.js';
 import Canvas from './pages/draw/draw.js';
+import Games from './pages/games/games.js';
+import EnglishChoiceGame from './pages/games/game01/EnglishChoiceGame.js';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/words" element={<Words />} />
           <Route path="/tables" element={<Tables />} />
           <Route path="/draws" element={<Canvas />} />
+          <Route path="/games" element={<Games />} />
+          <Route path="/game01" element={<EnglishChoiceGame />} />
         </Routes>
       </Router>
     </div>

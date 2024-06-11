@@ -24,8 +24,9 @@ export default function Navbarkids() {
             <Nav.Link href="/kg-learning/#/words" className="nav-item">Words</Nav.Link>
             <Nav.Link href="/kg-learning/#/tables" className="nav-item">Tables</Nav.Link>
             <Nav.Link href="/kids-learning/#/draws" className="nav-item">Draw</Nav.Link>
+            <Nav.Link href="/kids-learning/#/games" className="nav-item">Games</Nav.Link>
           </Nav>
-          <Button onClick={toggleDarkMode} variant="outline-secondary" className="ml-2">
+          <Button onClick={toggleDarkMode} variant="outline-secondary" className="mx-2">
             {darkMode ? (
               <span><FontAwesomeIcon icon={faSun} /> Light Mode</span>
             ) : (
